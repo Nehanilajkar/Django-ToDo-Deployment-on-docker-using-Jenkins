@@ -45,7 +45,7 @@ $ python manage.py runserver
 
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
-Now we cann this using public ip(ec2 VM):8001
+Now we can run this using public ip(ec2 VM):8001 , by giving '*' in allowed hosts , to allow all ip's in todoApp/settings.py.
 ```bash
 $ python manage.py runserver 0.0.0.0:8001 
 ```
