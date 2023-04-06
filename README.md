@@ -7,6 +7,7 @@ To get this repository, run the following command inside your git enabled termin
 $ git clone https://github.com/Nehanilajkar/Django-ToDo-Deployment-on-docker-using-Jenkins.git
 ```
 
+If working locally best practice is to create a virtual env.
 ```bash
 python -m venv env
  .\env\Scripts\activate
